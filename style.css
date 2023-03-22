@@ -37,3 +37,9 @@ body{
 .br{
     border-right: 0;
 }
+button{
+    border: 1px solid;
+    border-radius: 10px;
+    padding: 15px 35px;
+    margin: 25px 0;
+}
