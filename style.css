@@ -1,0 +1,39 @@
+body{
+    background-color: rgb(238, 168, 76);
+}
+.gamecontainer{
+    
+}
+.container{
+    padding: 0vw 35vw;
+    display: grid;
+    grid-template-columns: repeat(3,10vw);
+    grid-template-rows: repeat(3,10vw);
+}
+.box{
+    border: 2px solid black;
+    font-size: 3vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box:hover{
+    background-color: rgb(232, 207, 162);
+    cursor: pointer;
+}
+.gameinfo{
+    margin-top: 5vw;
+    font-size: 3vw;
+}
+.bt{
+    border-top: 0;
+}
+.bb{
+    border-bottom: 0;
+}
+.bl{
+    border-left: 0;
+}
+.br{
+    border-right: 0;
+}
